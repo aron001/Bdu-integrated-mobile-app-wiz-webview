@@ -1,10 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { WebView } from 'react-native-webview';
+
 
 export default function App() {
   return (
+    <WebView
+    
+      source={{ uri: 'https://ethiomp.vercel.app' }}
+    />
+  );
+}
+
+
+
+
+
+
+
+
+/*import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Button, Text, View } from "react-native";
+import { openBrowserAsync } from "expo-web-browser";
+export default function App() {
+  return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Button title="get start" onPress={() => openBrowserAsync("https://ethiomp.vercel.app")}/>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +33,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
+*/
