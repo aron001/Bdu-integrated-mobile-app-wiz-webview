@@ -6,7 +6,7 @@ export default function App() {
   return (
     <WebView
     
-      source={{ uri: 'https://ethiomp.vercel.app' }}
+      source={{ uri: 'https://bit.ly/3OTf5D3' }}
     />
   );
 }
